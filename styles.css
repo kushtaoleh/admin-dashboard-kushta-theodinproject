@@ -21,6 +21,9 @@ body{
     align-items: center;
     padding: 25px 50px 25px 50px;
 }
+img{
+    border-radius: 50%;
+}
 .wrapper{
     height: 100%;
     width: 100%;
