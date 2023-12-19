@@ -29,7 +29,7 @@ img{
 .wrapper{
     display: grid;
     grid-template-columns: minmax(100px, 1fr) minmax(400px, 4fr);
-    grid-template-rows: 150px 1200px;
+    grid-template-rows: 150px 1000px;
 }
 .sidebar,
 .header,
@@ -42,7 +42,7 @@ img{
     background-color: #1992d4;
     color: white;
     display: grid;
-    grid-template-rows: minmax(50px, 10%) minmax(150px, 40%) minmax(75px, 20%);
+    grid-template-rows: minmax(50px, 10%) minmax(150px, 35%) minmax(75px, 20%);
     grid-template-columns: 1fr;
 }
 
@@ -275,4 +275,11 @@ img{
 #side_trend > div span{
     display: block;
     color: black;
+}
+
+.article,
+#side_ann,
+#side_trend{
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.19); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.19);
 }
