@@ -33,6 +33,12 @@ body{
     grid-template-columns: 1fr;
 }
 
+.sidebar p{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+
 
 .header{
     grid-area: 1 / 2 / 2 / -1;
