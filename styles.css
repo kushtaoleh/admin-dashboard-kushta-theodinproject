@@ -22,7 +22,6 @@ body{
     font-size: 16px;
     justify-content: center;
     align-items: center;
-    padding: 25px 50px 25px 50px;
 }
 img{
     border-radius: 50%;
@@ -199,7 +198,9 @@ img{
     margin-left: 20px;
 }
 
-#yourProjects{
+#yourProjects,
+#announcements_head,
+#trending_head{
     font-family: Roboto_medium;
     width: 100%;
     margin: 0;
@@ -209,4 +210,45 @@ img{
 
 #side_content{
     margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#announcements{
+    display: flex;
+    flex-direction: column;
+}
+.divider{
+    width: 100%;
+    background-color: #646464;
+    height: 1px;
+}
+#side_ann{
+    width: 90%;
+    font-size: 0.75rem;
+    background-color: white;
+    color: #646464;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+#side_ann h1{
+    color: black;
+    font-size: 0.85rem;
+}
+#side_ann h1,
+#side_ann p{
+    margin-left: 5px;
+}
+
+#trending{
+    display: flex;
+    flex-direction: column;
+}
+
+#side_trend{
+    width: 90%;
+    font-size: 0.75rem;
+    background-color: white;
+    color: #646464;
+    padding: 15px 30px;
+    border-radius: 10px;
 }
