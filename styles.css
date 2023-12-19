@@ -65,6 +65,9 @@ body{
     grid-template-rows: 1fr 2fr;
     grid-template-columns: 2fr 1fr;
 }   
+
+
+
 .main{
     grid-area: 2 / 2 / -1 / -1;
 }
