@@ -65,7 +65,7 @@ img{
 .header{
     grid-area: 1 / 2 / 2 / -1;
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 50% 50%;
     grid-template-columns: 2fr 1fr;
 }   
 
@@ -76,11 +76,18 @@ img{
 #notifications{
     grid-area: 1 / 2 / 2 / 3;
 }
-
+#notifications img{
+    width: 10%;
+}
 
 #hiThere_section{
     grid-area: 2 / 1 / -1 / 2;
 }
+#hiThere_section img{
+    width: 6.5%;
+}
+
+
 #community_buttons{
     grid-area: 2 / 2 / -1 / -1;
 }
