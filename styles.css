@@ -29,7 +29,7 @@ img{
 .wrapper{
     display: grid;
     grid-template-columns: minmax(100px, 1fr) minmax(400px, 4fr);
-    grid-template-rows: 150px 750px;
+    grid-template-rows: 150px 900px;
 }
 .sidebar,
 .header,
@@ -246,9 +246,23 @@ img{
 
 #side_trend{
     width: 90%;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     background-color: white;
     color: #646464;
     padding: 15px 30px;
     border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(4, 55px);
+    grid-gap: 20px;
+}
+#side_trend img{
+    height: 100%;
+}
+#side_trend > div{
+    display: flex;
+    gap: 15px;
+}
+#side_trend > div span{
+    display: block;
+    color: black;
 }
