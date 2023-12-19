@@ -5,7 +5,17 @@
     font-family: sidebar;
     src: url('/Fonts/fonts/icomoon.ttf');
 }
+@font-face {
+    font-family: Roboto_regular;
+    src: url(/fonts_text/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto_bold;
+    src: url(/fonts_text/Roboto-Bold.ttf);
+}
 body{
+    font-family: Roboto_regular, sans-serif;
+    font-size: 16px;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -25,6 +35,7 @@ body{
 
 }
 .sidebar{
+    font-family: Roboto_bold;
     grid-area: 1 / 1 / -1 / 2;
     background-color: #1992d4;
     color: white;
@@ -35,8 +46,16 @@ body{
 
 .sidebar p{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     margin-left: 10px;
+    font-size: 1rem;
+    align-items: center;
+}
+.sidebar span:not(.icon-menu){
+    font-size: 0.8rem;
+}
+.sidebar .icon-menu{
+    font-size: 2rem;
 }
 
 
