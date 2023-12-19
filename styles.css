@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
 }
+@font-face {
+    font-family: sidebar;
+    src: url('/Fonts/fonts/icomoon.ttf');
+}
 body{
     height: 100vh;
     justify-content: center;
@@ -23,6 +27,8 @@ body{
 .sidebar{
     grid-area: 1 / 1 / -1 / 2;
 }
+
+
 .header{
     grid-area: 1 / 2 / 2 / -1;
 }   
