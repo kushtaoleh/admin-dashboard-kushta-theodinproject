@@ -155,4 +155,36 @@ img{
 
 .main{
     grid-area: 2 / 2 / -1 / -1;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+#main_content{
+    display: grid;
+    grid-template-rows: 5% 95%;
+}
+.article{
+    font-family: Roboto_regular;
+    font-size: 0.8rem;
+}
+.article h1{
+    font-family: Roboto_medium;
+    font-size: 0.9rem;
+    margin: 0;
+    }
+.article p {
+    margin: 0; 
+}
+#allArticles{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+#yourProjects{
+    font-family: Roboto_medium;
+    width: 100%;
+    margin: 0;
+    align-self: flex-end;
 }
