@@ -189,6 +189,8 @@ img{
 .article p {
     margin: 0;
     color: #646464;
+    overflow: hidden;
+    word-break: break-all;
 }
 #allArticles{
     display: grid;
