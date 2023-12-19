@@ -26,6 +26,11 @@ body{
 }
 .sidebar{
     grid-area: 1 / 1 / -1 / 2;
+    background-color: #1992d4;
+    color: white;
+    display: grid;
+    grid-template-rows: minmax(50px, 10%) minmax(150px, 40%) minmax(75px, 20%);
+    grid-template-columns: 1fr;
 }
 
 
