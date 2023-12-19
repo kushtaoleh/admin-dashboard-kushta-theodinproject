@@ -69,7 +69,21 @@ img{
     grid-template-columns: 2fr 1fr;
 }   
 
+.searchSection{
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+#notifications{
+    grid-area: 1 / 2 / 2 / 3;
+}
 
+
+#hiThere_section{
+    grid-area: 2 / 1 / -1 / 2;
+}
+#community_buttons{
+    grid-area: 2 / 2 / -1 / -1;
+}
 
 .main{
     grid-area: 2 / 2 / -1 / -1;
